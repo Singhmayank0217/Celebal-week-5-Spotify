@@ -2,7 +2,7 @@ class YouTubeSearchService {
   constructor() {
     this.API_KEY =
       import.meta.env.VITE_YOUTUBE_API_KEY ||
-      "AIzaSyDnjYdUHgz0GJmW7L2hZykEV-aOfSMYUrY";
+      "Your_api";
     this.BASE_URL = "https://www.googleapis.com/youtube/v3";
     this.cache = new Map();
     this.requestCount = 0;

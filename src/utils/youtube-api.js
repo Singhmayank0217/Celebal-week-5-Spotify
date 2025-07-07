@@ -1,6 +1,6 @@
 export const YOUTUBE_API_KEY =
   import.meta.env.VITE_YOUTUBE_API_KEY ||
-  "AIzaSyDnjYdUHgz0GJmW7L2hZykEV-aOfSMYUrY";
+  "Your_api";
 export const YOUTUBE_API_BASE_URL = "https://www.googleapis.com/youtube/v3";
 
 export const searchYouTubeVideos = async (query, maxResults = 20) => {
